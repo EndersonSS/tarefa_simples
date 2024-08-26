@@ -1,4 +1,4 @@
-import 'package:go_barber/globals/mySpaces.dart';
+import 'package:tarefa_simples/globals/mySpaces.dart';
 import '../globals/myColors.dart';
 import '../providers/tasks.dart';
 import '../screens/homepage.dart';
