@@ -304,7 +304,7 @@ class _DrawerScreenState extends State<DrawerScreen> {
                       Consumer<Authentication>(
                         builder: (ctx, auth, _) {
                           return Text(
-                            _auth.currentUser!.displayName!,
+                            _auth.currentUser!.displayName ?? "-",
                             style: MyFonts.bold.setColor(kWhite).letterSpace(3).size(SizeConfig.horizontalBlockSize * 7),
                           );
                         }
